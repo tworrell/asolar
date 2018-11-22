@@ -1,0 +1,86 @@
+body, html {
+    background: transparent;
+    background-image: url(../images/starrySpace3.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+   /* position:fixed;*/
+    /*-webkit-filter: drop-shadow(1px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black)
+          drop-shadow(-1px -1px 0 black);*/
+}
+
+.planetshome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:10px;
+    
+   /* position:fixed;*/
+}
+
+#mercury{
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+
+body {
+    font-family: Roboto, Roboto Condensed, sans-serif;
+}
+
+/*For banners 1 & 2, change text color, font size.  Add text effects*/
+
+#banner1 {
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+#banner2 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+#banner3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+/*.planets {
+    max-width: 70vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+*/
+
+/*.carousel-slide{
+    max-height: 500px;
+    max-width: 500px;
+} 
+*/
+
+/*.carousel-inner > img {
+  width:640px;
+  height:360px;
+}
+*/
+
+.flex-container{
+    position: fixed;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}

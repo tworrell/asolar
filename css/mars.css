@@ -1,0 +1,19 @@
+html, body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.jumbotron{
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/13/14/30/mars-11012_960_720.jpg);
+  background-repeat: no-repeat;
+  background-color: grey;
+  background-size: cover;
+}
+h1,p{
+  color: white;
+}
+
+#card-text{
+  color: black;
+}

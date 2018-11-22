@@ -1,0 +1,22 @@
+html, body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.jumbotron{
+  background-image: url(https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-color: grey;
+  background-size: cover;
+}
+h1,p{
+  color: white;
+}
+
+.flex-container{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
